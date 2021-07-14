@@ -64,8 +64,8 @@ option3 = st.sidebar.selectbox(
     list(data_option2["問題番号"].unique())
 )
 data_option3=data_option2[data_option2["問題番号"]==option3]
-sentence2=data_option3["問題文2"]
-sentence3=data_option3["問題文3"]
+
+
 
 
 st.sidebar.write("------問題文詳細-------")
@@ -75,18 +75,24 @@ option4 = st.sidebar.selectbox(
     "詳細1",
     list(data_option3[~data_option3["問題文2"].isnull()]["問題文2"].unique())
 )
-data_option4=data_option3[data_option3["問題文2"]==option4]
+if option4!=None:
+    data_option4=data_option3[data_option3["問題文2"]==option4]
+else:
+    data_option4=data_option3
+
 
 option5 = st.sidebar.selectbox(
     "詳細2",
-    list(data_option4[~data_option4["問題文3"].isnull()]["問題文2"].unique())
+    list(data_option4["問題文3"].unique())
 )
-data_option5=data_option4[data_option4["問題文3"]==option5]
+if option5!=None:
+    data_option5=data_option4[data_option4["問題文3"]==option5]
+else:
+    data_option5=data_option4[data_option4["問題文3"]==None]
 
-    
-
-
-
+data_option4
+data_option5
+data_option4["問題文3"]
 
 
 ############
@@ -98,8 +104,7 @@ tmp_path="Text/"+option1+".txt"
 f= open(tmp_path,"r")
 text_option1=f.read()
 f=f.close
-option1
-expander_option1=st.beta_expander("")
+expander_option1=st.beta_expander(option1)
 expander_option1.write(text_option1)
 
 
@@ -108,9 +113,7 @@ tmp_path="Text/"+option1+"/"+option2+".txt"
 f= open(tmp_path,"r")
 text_option2=f.read()
 f=f.close
-
-option2
-expander_option2=st.beta_expander("")
+expander_option2=st.beta_expander(option2)
 expander_option2.write(text_option2)
 
 
@@ -123,7 +126,7 @@ f=f.close
 
 
 "問題一覧"
-expander_option3=st.beta_expander("")
+expander_option3=st.beta_expander("表示する")
 expander_option3.write(text_option3)
 
 # display  sentence
@@ -133,9 +136,10 @@ st.write("   ")
 # sentence 1
 data_option3.at[data_option3.index[0],"問題文"]
 
-
-data_option3.at[data_option3.index[0],"問題文2"]
-data_option3.at[data_option3.index[0],"問題文3"]
+if option4!=None:
+    option4
+if option5!=None:
+    option5
 
 # expander_sentence2=st.beta_expander("詳細1")
 # expander_sentence2.write(text_option3)
@@ -162,17 +166,13 @@ data_option3.at[data_option3.index[0],"問題文3"]
 
 
 # Question table
-"該当する変数一覧"
-
 Year=[2005,2006,2007,2008,2009,2010,2011,2012,2013,2016,2017,2018]
 Year_row=["X"+str(year)+"年"  for year in Year]
 Question=data_option3[Year_row].fillna("")
 Question.columns=[str(year)+"年"  for year in Year]
 
-expander_option3=st.beta_expander("")
+expander_option3=st.beta_expander("該当する変数一覧")
 expander_option3.write(Question)
-
-Year_row=["X"+str(year)+"年"  for year in Year]
 
 # """
 # # 章
