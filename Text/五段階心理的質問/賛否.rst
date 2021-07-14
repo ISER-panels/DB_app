@@ -1,0 +1,861 @@
+====================================================================================================
+賛否         
+====================================================================================================
+
+
+:doc:`賛否/Q83` :  
+お金のことを考えるのははしたない
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q83
+
+
+:doc:`賛否/Q84` :  
+先のことは不確実だから、考えても無駄だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q84
+
+
+:doc:`賛否/Q85` :  
+本当は資格がなくても社会保障を受け取ってもよい
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q85
+
+
+:doc:`賛否/Q86` :  
+一般的に言って、人はだいたい信用できる。
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q86
+
+
+:doc:`賛否/Q87` :  
+不況時には女性より男性の仕事を守るべきだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q87
+
+
+:doc:`賛否/Q88` :  
+悪法でも法律は絶対に守らなければならない
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q88
+
+
+:doc:`賛否/Q89` :  
+絶対に見つからないなら、かなり悪いことでもやって良い
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q89
+
+
+:doc:`賛否/Q90` :  
+絶対に見つからないなら、悪いこと（ゴミのポイ捨てや駐車違反など）をやって良い
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q90
+
+
+:doc:`賛否/Q91` :  
+市場経済は格差を拡大するがそれ以上に人々を豊かにする
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q91
+
+
+:doc:`賛否/Q92` :  
+競争が激しくなると、不正行為が増える
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q92
+
+
+:doc:`賛否/Q93` :  
+自立できない貧しい人の面倒を見るのは政府の責任だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q93
+
+
+:doc:`賛否/Q94` :  
+仕事の場においては、グループの意見に従うべきだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q94
+
+
+:doc:`賛否/Q95` :  
+家庭の場においては、家族の意見に従うべきだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q95
+
+
+:doc:`賛否/Q96` :  
+グループで協力する方が、一人ずつ孤立に仕事をするよりも、高い成果が得られる
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q96
+
+
+:doc:`賛否/Q97` :  
+「みんなで協力して目標を達成した」場合の満足度は「自分ひとりの力で目標を達成した」場合より大きい
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q97
+
+
+:doc:`賛否/Q98` :  
+ギャンブルはすべきでない
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q98
+
+
+:doc:`賛否/Q99` :  
+お金を貯めることが人生の目的だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q99
+
+
+:doc:`賛否/Q100` :  
+他の人のためになること（公園のごみ拾いなど）をするとき自分もうれしい
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q100
+
+
+:doc:`賛否/Q101` :  
+自分自身の人生を決めるのは自分だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q101
+
+
+:doc:`賛否/Q102` :  
+一般的に言って、いまの世の中は不公平だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q102
+
+
+:doc:`賛否/Q103` :  
+世の中には、性別によって不公平が存在する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q103
+
+
+:doc:`賛否/Q104` :  
+世の中には、年齢によって不公平が存在する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q104
+
+
+:doc:`賛否/Q105` :  
+世の中には、容姿によって不公平が存在する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q105
+
+
+:doc:`賛否/Q106` :  
+世の中には、家柄・出自によって不公平が存在する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q106
+
+
+:doc:`賛否/Q107` :  
+貧困になる理由は怠惰というよりは不公平のせいである
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q107
+
+
+:doc:`賛否/Q108` :  
+人生の成功において最も大切なものは運やコネよりも努力である
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q108
+
+
+:doc:`賛否/Q109` :  
+人生における困難は、人をそれまでよりも強靭で、より良い人間にする
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q109
+
+
+:doc:`賛否/Q110` :  
+我々の人生は生まれる前に神や運命によって決められている
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q110
+
+
+:doc:`賛否/Q111` :  
+今より貧しい人が増えるのは良くない
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q111
+
+
+:doc:`賛否/Q112` :  
+今より所得の不平等が拡大するのは良くない
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q112
+
+
+:doc:`賛否/Q113` :  
+夫に十分な所得があるならば、妻は働くべきではない
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q113
+
+
+:doc:`賛否/Q114` :  
+夫は外で働き、妻は家を守るべきである
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q114
+
+
+:doc:`賛否/Q115` :  
+母親が外で働くことは、未就学児童の発育に負の影響を与える
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q115
+
+
+:doc:`賛否/Q116` :  
+妻にとって、夫のキャリアの助けとなることが、自分自身のキャリアを追い求めるよりも大事である
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q116
+
+
+:doc:`賛否/Q117` :  
+神、仏、天使、悪霊などのスピリチュアルなものが実在する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q117
+
+
+:doc:`賛否/Q118` :  
+どのような悪事も、神には必ずしられている
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q118
+
+
+:doc:`賛否/Q119` :  
+死後の世界がある
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q119
+
+
+:doc:`賛否/Q120` :  
+霊が存在する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q120
+
+
+:doc:`賛否/Q121` :  
+一般的に理科の教科書で書かれていることは信頼できる
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q121
+
+
+:doc:`賛否/Q122` :  
+地球は、丸いわけではなく平面である
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q122
+
+
+:doc:`賛否/Q123` :  
+天国がある
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q123
+
+
+:doc:`賛否/Q124` :  
+念力で物を動かせる
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q124
+
+
+:doc:`賛否/Q125` :  
+神様・仏様がいる
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q125
+
+
+:doc:`賛否/Q126` :  
+占いを信じる
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q126
+
+
+:doc:`賛否/Q127` :  
+人の性格は血液型をみるとわかる
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q127
+
+
+:doc:`賛否/Q128` :  
+人間は他の生物から進化した
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q128
+
+
+:doc:`賛否/Q129` :  
+感情より理性重んじるべき
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q129
+
+
+:doc:`賛否/Q130` :  
+一般的にテレビ番組は信頼できる
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q130
+
+
+:doc:`賛否/Q131` :  
+4という数字は不吉だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q131
+
+
+:doc:`賛否/Q132` :  
+雪男は実在する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q132
+
+
+:doc:`賛否/Q133` :  
+魔女は実在する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q133
+
+
+:doc:`賛否/Q134` :  
+親に介護が必要になったら、子どもが親を介護するのは当然だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q134
+
+
+:doc:`賛否/Q135` :  
+子どもがいたら、自分の子どもに介護してもらうのが理想だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q135
+
+
+:doc:`賛否/Q136` :  
+今の日本は、いろいろな意味で格差 社会だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q136
+
+
+:doc:`賛否/Q137` :  
+日本は、収入・資産をより平等にす べきだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q137
+
+
+:doc:`賛否/Q138` :  
+一般的に言って、今の日本社会は不 公平だ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q138
+
+
+:doc:`賛否/Q139` :  
+所得や資産が多い人に、現状より重 い税負担を課すべきだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q139
+
+
+:doc:`賛否/Q140` :  
+年収 1 億円のスポーツ選手は報酬 をもらい過ぎだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q140
+
+
+:doc:`賛否/Q141` :  
+年収 1 億円の経営者は報酬をもら い過ぎだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q141
+
+
+:doc:`賛否/Q142` :  
+貧しい人の所得が一定のままで も、豊かな人の所得が増えるのは 良いことだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q142
+
+
+:doc:`賛否/Q143` :  
+資産保有額のトップ 1%の人に今以 上に富が集中するのは良くない
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q143
+
+
+:doc:`賛否/Q144` :  
+世の中の所得格差が縮まるなら、 少しぐらい自分の豊かさの順位が 下がっても良い
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q144
+
+
+:doc:`賛否/Q145` :  
+たとえ経済成長率を低下させるこ とになっても、所得格差を縮小す るべきだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q145
+
+
+:doc:`賛否/Q146` :  
+税や社会保障で所得格差を縮小す ると、国民の働く意欲が低下する
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q146
+
+
+:doc:`賛否/Q147` :  
+いざという場合の備えに、買いたいものを我慢してでも、できる限り貯蓄をしておくべきだ
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q147
+
+
+:doc:`賛否/Q148` :  
+夫の所得に十分な所得があるならば、妻は働くべきではない
+
+.. toctree::
+   :caption:賛否
+   :maxdepth: 1
+   :hidden:
+   :glob:
+   
+
+   賛否/Q148
