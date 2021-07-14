@@ -3,10 +3,14 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL  import Image
-
 #pip freeze| grep numpy
 
+#生データの読み込み
+data_path = "Data_new_問題番号振り直し.xlsx"
+data=pd.read_excel(data_path, dtype=object,sheet_name=None, na_values=(''),skipinitialspace=True,header=0)
+sheet_name=data.keys()
 
+data_url="https://github.com/RyoMikami/JHPS_CPS_streamlit/raw/master/Data_new_問題番号振り直し.xlsx"
 # title
 st.title("JHPS_CPS")
 
@@ -26,23 +30,16 @@ for i in range(100):
 latest_iteration.text('')
 bar.progress(0.0)
 
-#生データの読み込み
-data_path = "Data_new_問題番号振り直し.xlsx"
-data=pd.read_excel(data_path, dtype=object,sheet_name=None, na_values=(''),skipinitialspace=True,header=0)
-sheet_name=data.keys()
 
 
-
-
-
-#サイドバー
+#　side bar
 st.sidebar.write("どのような質問をお探しですか？")
 
-option = st.sidebar.selectbox(
+option1 = st.sidebar.selectbox(
     "大問区分",
     list(sheet_name)
 )
-# 
+
 
 text=st.sidebar.text_input("sasa")
 condition=st.sidebar.slider("あなたの調子は",0,10,5)
@@ -50,10 +47,12 @@ condition=st.sidebar.slider("あなたの調子は",0,10,5)
 
 
 
-"えらんだ",option,"か"
+"えらんだ",option1,"か"
+
+# display
+st.dataframe(data[option1])
 
 
-st.dataframe(data[option])
 """
 # 章
 ## 節
