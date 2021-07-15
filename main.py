@@ -12,7 +12,8 @@ from PIL  import Image
 #pip freeze| grep numpy
 
 #生データの読み込み
-data_url="https://github.com/RyoMikami/JHPS_CPS_streamlit/raw/master/Data20210714.xlsx"
+# data_url="https://github.com/RyoMikami/JHPS_CPS_streamlit/raw/master/db.xlsx"
+data_url="db.xlsx"
 data=pd.read_excel(data_url, dtype=object,sheet_name=None, na_values=(''),header=0)
 sheet_name=data.keys()
 
@@ -25,6 +26,8 @@ st.title("JHPS_CPS")
 """
 このページでは「くらしの好みと満足度についてアンケート」で提供されるデータセットの説明を行っています。
 データを利用・分析する際にご活用ください。
+
+左のメニューから検索ができます。
 """
 
 # progress bar
@@ -73,31 +76,30 @@ st.sidebar.write("------問題文詳細-------")
 
 option4 = st.sidebar.selectbox(
     "詳細1",
-    list(data_option3[~data_option3["問題文2"].isnull()]["問題文2"].unique())
+    [i if i is not np.nan else ""  for i in list(data_option3["問題文2"].unique())] 
 )
-if option4!=None:
+if option4!="":
     data_option4=data_option3[data_option3["問題文2"]==option4]
 else:
-    data_option4=data_option3
+    tmp=[ True if i is np.nan else False  for i in data_option3["問題文3"] ]
+    data_option4=data_option3[tmp]
 
 
 option5 = st.sidebar.selectbox(
     "詳細2",
-    list(data_option4["問題文3"].unique())
+    [i if i is not np.nan else ""  for i in list(data_option4["問題文3"].unique())] 
 )
-if option5!=None:
+if option5!="":
     data_option5=data_option4[data_option4["問題文3"]==option5]
 else:
-    data_option5=data_option4[data_option4["問題文3"]==None]
-
-data_option4
-data_option5
-data_option4["問題文3"]
+    tmp=[ True if i is np.nan else False  for i in data_option4["問題文3"] ]
+    data_option5=data_option4[tmp]
 
 
 ############
 
 ########### display
+
 
 # text for option 1
 tmp_path="Text/"+option1+".txt"
@@ -131,48 +133,70 @@ expander_option3.write(text_option3)
 
 # display  sentence
 
+"""
+
+
+-------------------------- 検索結果 --------------------------
+"""
 st.write("   ")
+
+
 '問題番号',option3
 # sentence 1
-data_option3.at[data_option3.index[0],"問題文"]
 
+sentence1='\n\n'.join(data_option3.at[data_option3.index[0],"問題文"].splitlines())
+sentence1
+
+sentence2=""
 if option4!=None:
-    option4
+    sentence2='\n\n'.join(option4.splitlines()) 
+    sentence2_list=""
+    for i in  list(data_option3["問題文2"].unique()):
+        sentence2_list+="```\n"+str(i)+"\n"+"```\n"
+    
+expander_sentence2=st.beta_expander("")
+expander_sentence2.write(sentence2_list) 
+sentence2
+
+sentence3=""
 if option5!=None:
-    option5
+    sentence3='\n\n'.join(option5.splitlines())
+    sentence3_list=""
+    for i in  list(data_option3["問題文3"].unique()):
+        sentence3_list+="```\n"+str(i)+"\n"+"```\n"
+    
 
-# expander_sentence2=st.beta_expander("詳細1")
-# expander_sentence2.write(text_option3)
+expander_sentence3=st.beta_expander("")
+expander_sentence3.write("") 
+sentence3
 
-# expander_sentence3=st.beta_expander("詳細2")
-# expander_sentence3.write(text_option3)
+target= ' '.join(list(data_option5["質問対象者"].unique()))
+expander_target=st.beta_expander("質問対象者")
+expander_target.write(target)
 
 
+choise=""
+for i in data_option5.index:
+    choise+=str( data_option5.at[i,"選択肢"])+str('\n\n')
 
-# # sentence 2
-# if np.isnan( data_option4.at[data_option4.index[0],"問題文2"]):
-#     sentence2=""
-# else:
-#     sentence2=data_option4.at[data_option4.index[0],"問題文2"]
-# sentence2
+expander_choise=st.beta_expander("選択肢")
+expander_choise.write(choise)
 
-# # sentence 3
-# if np.isnan( data_option5.at[data_option5.index[0],"問題文3"]):
-#     sentence3=""
-# else:
-#     sentence3=data_option5.at[data_option5.index[0],"問題文3"]
-# sentence3
+
 
 
 
 # Question table
-Year=[2005,2006,2007,2008,2009,2010,2011,2012,2013,2016,2017,2018]
-Year_row=["X"+str(year)+"年"  for year in Year]
-Question=data_option3[Year_row].fillna("")
-Question.columns=[str(year)+"年"  for year in Year]
-
-expander_option3=st.beta_expander("該当する変数一覧")
+tmp=['年' in i for i in list(data_option5.columns) ]
+Year_row=list(data_option5.columns[tmp])
+target_row=["選択肢"]+Year_row
+Question=data_option5[target_row].fillna("")
+row_names=[ i[1:]  for i in Year_row ]  
+Question.columns=["選択肢"]+row_names
+expander_option3=st.beta_expander("実施年度")
 expander_option3.write(Question)
+
+
 
 # """
 # # 章
