@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-data_url="https://github.com/RyoMikami/JHPS_CPS_streamlit/raw/master/Data.xlsx"
+# data_url="https://github.com/RyoMikami/JHPS_CPS_streamlit/raw/master/Data.xlsx"
 data=pd.read_excel(data_url, dtype=object,sheet_name=None, na_values=(''),header=0)
 sheet_name=data.keys()
 
