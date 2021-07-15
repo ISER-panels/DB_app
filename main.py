@@ -6,9 +6,6 @@
 # import 
 import os
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL  import Image
 #pip freeze| grep numpy
 
 #生データの読み込み
