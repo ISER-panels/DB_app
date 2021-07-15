@@ -26,14 +26,14 @@ st.title("JHPS_CPS")
 このページでは「くらしの好みと満足度についてアンケート」で提供されるデータセットの説明を行っています。
 データを利用・分析する際にご活用ください。
 
-左のメニューから検索ができます。
+左のメニューから質問内容を検索できます。
 """
 
 # progress bar
 latest_iteration=st.empty()
 bar = st.progress(0.0)
-for i in range(100):
-    latest_iteration.text(f'{i+1} %')
+for i in range(0,100):
+    latest_iteration.text(f'{(i+1)} %')
     bar.progress(i+1)
     # time.sleep(0.1)
 latest_iteration.text('')
@@ -44,7 +44,6 @@ bar.progress(0.0)
 
 
 st.sidebar.write("どのような質問をお探しですか？")
-
 option1 = st.sidebar.selectbox(
     "大問区分",
     list(sheet_name)
@@ -59,7 +58,7 @@ option2 = st.sidebar.selectbox(
 data_option2=data_option1[data_option1["小問区分"]==option2]
 
 
-text=st.sidebar.text_input("問題文を検索")
+# text=st.sidebar.text_input("問題文を検索")
 
 option3 = st.sidebar.selectbox(
     "問題番号",
@@ -101,6 +100,7 @@ else:
 
 
 # text for option 1
+"大問区分"
 tmp_path="Text/"+option1+".txt"
 f= open(tmp_path,"r")
 text_option1=f.read()
@@ -110,6 +110,7 @@ expander_option1.write(text_option1)
 
 
 # text for option2
+"小問区分"
 tmp_path="Text/"+option1+"/"+option2+".txt"
 f= open(tmp_path,"r")
 text_option2=f.read()
@@ -131,11 +132,11 @@ expander_option3=st.beta_expander("表示する")
 expander_option3.write(text_option3)
 
 # display  sentence
-
+st.write("   ")
 """
 
 
--------------------------- 検索結果 --------------------------
+-------------------------------- 検索結果 --------------------------------
 """
 st.write("   ")
 
@@ -145,6 +146,7 @@ st.write("   ")
 
 sentence1='\n\n'.join(data_option3.at[data_option3.index[0],"問題文"].splitlines())
 sentence1
+
 
 sentence2=""
 if option4!=None:
