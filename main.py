@@ -18,7 +18,7 @@ sheet_name=data.keys()
 
 
 # title
-st.title("JHPS_CPS ver1.0")
+st.title("JHPS_CPS ver0.1")
 
 
 # sentence
@@ -27,6 +27,8 @@ st.title("JHPS_CPS ver1.0")
 データを利用・分析する際にご活用ください。
 
 左のメニューから質問内容を検索できます。
+
+注意: このアプリは現在開発途中のサービスです。
 """
 
 # progress bar (ただの飾り)
