@@ -18,7 +18,7 @@ sheet_name=data.keys()
 
 
 # title
-st.title("JHPS_CPS")
+st.title("JHPS_CPS ver1.0")
 
 
 # sentence
@@ -29,7 +29,7 @@ st.title("JHPS_CPS")
 左のメニューから質問内容を検索できます。
 """
 
-# progress bar
+# progress bar (ただの飾り)
 latest_iteration=st.empty()
 bar = st.progress(0.0)
 for i in range(0,100):
