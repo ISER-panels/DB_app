@@ -12,7 +12,7 @@ from PIL  import Image
 #pip freeze| grep numpy
 
 #生データの読み込み
-data_url="https://github.com/JHPS-CPS/DB_app/raw/master/db.xlsx"
+data_url="https://github.com/ISER-panel/DB_app/raw/main/db.xlsx"
 data=pd.read_excel(data_url, dtype=object,sheet_name=None, na_values=(''),header=0)
 sheet_name=data.keys()
 
