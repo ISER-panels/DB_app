@@ -11,7 +11,7 @@ Ryo Mikami
 https://www.iser.osaka-u.ac.jp/survey_data/panelsummary.html
 
 # 使用方法
-https://share.streamlit.io/jhps-cps/db_app/main.py
+https://share.streamlit.io/iser-panels/db_app/main.py
 にアクセスし、ブラウザから操作する。
 
 # 内容
@@ -19,7 +19,7 @@ https://share.streamlit.io/jhps-cps/db_app/main.py
 * db.xlsx
 
 データベースファイル。新規の質問を追加したり内容を修正する場合はこのファイルを編集すれば結果が反映されます。
-https://www.iser.osaka-u.ac.jp/survey_data/survey.html
+"https://github.com/ISER-panels/DB_app/raw/main/db.xlsx"
 
 * main.py 
 
