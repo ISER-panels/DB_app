@@ -11,7 +11,7 @@ Ryo Mikami
 https://www.iser.osaka-u.ac.jp/survey_data/panelsummary.html
 
 # 使用方法
-https://share.streamlit.io/iser-panels/db_app/main.py
+https://share.streamlit.io/iser-panels/db_app/main/main.py
 にアクセスし、ブラウザから操作する。
 
 # 内容
